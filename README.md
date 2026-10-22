@@ -1,5 +1,7 @@
 # QuantumHealth Optimizer
 
+HEALTH OPTIMISER — synthetic-data educational demonstration.
+
 An educational Streamlit prototype demonstrating a pipeline from synthetic patient profile through illustrative machine learning, patient-specific constraints, binary optimization, and independent validation. It is not clinically validated, does not diagnose, and does not provide treatment or medication advice. All patient profiles and option attributes are synthetic and fictional.
 
 ## Requirements
@@ -10,7 +12,7 @@ An educational Streamlit prototype demonstrating a pipeline from synthetic patie
 ## Install and run (Windows PowerShell)
 
 ```powershell
-py -3.11 -m venv .venv
+py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements-dev.txt
